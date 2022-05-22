@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sannino's Auto</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="script.js" defer="true"></script>
+</head>
+
+<body>
+  <div class="hidden overlay">
+  </div>
+  <header>
+    <div class="nav-bar">
+      <div class="logo">
+        <a href="index.html">Sannino's Auto</a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a id="home" class="active">Home<span>.</span></a></li>
+          <li><a id="listino">Listino</a></li>
+          <li><a id="tecnologia">Tecnologia</a></li>
+          <li><a id="produzione">Produzione</a></li>
+          <li><a id="accedi">Accedi</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero">
+      <div class="row">
+        <div class="left-sec">
+          <div class="content">
+            <h2><span>BENVENUTO</span><br>Utente</h2>
+            <p>È brutto chiamarti in questo modo, ma purtroppo non so chi sei. Effettua l'accesso per farti riconoscere e per poter sbloccare tutte le funzionalità del sito.</p>
+          </div>
+          <button class="accedi-btn">
+            <a href="#">Accedi</a><span><i class="fa fa-arrow-circle-o-right"></i></span>
+          </button>
+          <div class="information">
+            <div class="production">
+              <p>Production</p>
+              <h2>1966-2019</h2>
+            </div>
+            <div class="production">
+              <p>Designer</p>
+              <h2>George Angersbach</h2>
+            </div>
+          </div>
+        </div>
+        <div class="right-sec">
+          <div class="my-car">
+            <div><img src="images/1.png"></div>
+            <div><img src="images/2.png"></div>
+            <div><img src="images/3.png"></div>
+            <div><img src="images/4.png"></div>
+            <div><img src="images/5.png"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="login-popup" id="Login">
+    <form action="accedi.php" method="POST" class="form-container">
+      <button type="button" class="btn cancel">X</button>
+      <h1>Accedi</h1>
+  
+      <label for="username"><b>Nome utente</b></label>
+      <input type="text" placeholder="Inserisci nome utente" name="username" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Inserisci password" name="psw" required>
+      <p>Non sei ancora registrato?</p><a href="registration.html">Registrati adesso!</a>
+  
+      <button type="submit" id="invia" class="btn">Login</button>
+    </form>
+  </div>
+  <footer>
+    <div class="testo-footer">
+      <p>STEFANO SANNINO 1000002144 HW1</p>
+    </div>
+    <div class="social-media">
+      <ul>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+</script>
+</body>
+</html>
